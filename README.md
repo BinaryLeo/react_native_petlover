@@ -7,6 +7,7 @@ PetLovers
   ![GitHub last commit](https://img.shields.io/github/last-commit/BinaryLeo/react_native_petlover?style=flat-square)
   ![GitHub top language](https://img.shields.io/github/languages/top/BinaryLeo/react_native_petlover?style=flat-square)
 </div>
+
 #### Dependencies
 
 #### State management:
