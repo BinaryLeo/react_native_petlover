@@ -1,12 +1,10 @@
 import React from "react";
 import { fireEvent, render } from "@testing-library/react-native";
+import renderer from 'react-test-renderer';
 import { Provider } from "react-redux";
 import configureStore from "redux-mock-store";
-import renderer from "react-test-renderer";
-
-import App from "./App";
-
 import { Login } from "./src/screens/signin/";
+import App from "./App";
 
 describe("<Login />", () => {
   const mockStore = configureStore([]);
