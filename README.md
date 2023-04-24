@@ -4,7 +4,9 @@
 
  <p>A react native application using authentication through an API rest. </p>
  
- 
+
+
+
 
 
  [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](https://github.com/BinaryLeo/react_native_petlover/blob/main/LICENSE)
@@ -20,17 +22,22 @@
 
 <table>
   <tr>
+    <td>Video</td>
     <td>signIn</td>
     <td>Filter</td>
     <td>Pet List</td>
     <td>Details</td>
   </tr>
   <tr>
-   <td><img src="https://user-images.githubusercontent.com/72607039/233894829-39fca866-36ce-4a53-897b-397201069bc9.jpeg"></td>
+   <td><video src='https://user-images.githubusercontent.com/72607039/233896766-2b0155a2-87b0-4a74-b10e-678e83d6ba7c.mp4' width=150/></td>
+    <td><img src="https://user-images.githubusercontent.com/72607039/233894829-39fca866-36ce-4a53-897b-397201069bc9.jpeg"></td>
     <td><img src="https://user-images.githubusercontent.com/72607039/233894256-0cf2e5cb-4bad-43a8-b04c-e98a346f2d30.jpeg"></td>
     <td><img src="https://user-images.githubusercontent.com/72607039/233894290-76ec1c88-4d8f-4c43-86de-aadc77d3040b.jpeg"></td>
-     <td><img src="https://user-images.githubusercontent.com/72607039/233894197-5c8026b9-47ea-4adb-a351-5162d5c1c9ee.jpeg"></td>
+    <td><img src="https://user-images.githubusercontent.com/72607039/233894197-5c8026b9-47ea-4adb-a351-5162d5c1c9ee.jpeg"></td>
     
+
+
+
   </tr>
 </table>
 
