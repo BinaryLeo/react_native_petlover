@@ -56,3 +56,69 @@ export const InfoContainer = styled.View`
   margin-left: 10px;
   justify-content: center;
 `;
+
+export const CardInfoWrapper = styled.View`
+  width: 90%;
+  background-color: #f1e3f5;
+  border-radius: 10px;
+  border-radius: 20px;
+`;
+export const BoxContent = styled.View`
+  width: 100%;
+  background-color: #a81bc4;
+  border-radius: 20px;
+`;
+export const BoxDetails = styled.View`
+  padding-vertical: 20px;
+  margin-left: 5%;
+`;
+export const CardInfo = styled.Text`
+  font-size: 14px;
+  font-weight: 500;
+`;
+export const CardLabel = styled.Text`
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #a81bc4;
+  padding: 20px;
+`;
+export const CardDetail = styled.Text`
+  font-size: 14px;
+  font-weight: 500;
+  padding-vertical: 20px;
+`;
+export const CardPhone = styled.Text`
+  font-size: 14px;
+  font-weight: 500;
+`;
+export const CardMail = styled.Text`
+  font-size: 14px;
+  font-weight: bold;
+`;
+export const CloseButtonLabel = styled.Text`
+  text-align: right;
+  margin-top: 15px;
+  margin-right: 30px;
+  color: red;
+`;
+export const AnimalsDetailsPicture = styled.Image`
+  width: 350px;
+  height: 350px;
+  align-items: center;
+  margin-top: 5%;
+  border-radius: 10px;
+`;
+export const BrowsePictures  = styled.TouchableOpacity`
+width: 40px;
+height: 40px;
+margin-top:-80px;
+margin-right:40px;
+align-items: center;
+justify-content: center;
+border-radius: 10px;
+background-color: #a81bc4;
+border-style:solid;
+border-width:1px;
+border-color:#eaeaea
+`

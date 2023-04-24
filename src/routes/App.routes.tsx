@@ -9,7 +9,6 @@ export default function AppRoutes() {
   return (
     <NavigationContainer>
       <Navigator
-        initialRouteName={"main"} //* Set the initial screen to "main"
         screenOptions={{ headerShown: false }} //* Hide the header on all screens
       >
         <Screen name={"signin"} component={Login} />

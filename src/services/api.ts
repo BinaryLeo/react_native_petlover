@@ -15,6 +15,9 @@ name: string;
 age: number;
 img:any
 categoryId: string;
+description?: string;
+phone?: string;
+email?: string;
 }
 
 //* Define functions for making API requests
@@ -68,3 +71,16 @@ return { success: false, message: "Ocorreu um erro ao fazer login" };
 }
 }
 };
+export const getAnimalById = async (id: string, token: string): Promise<IANIMAL> => {
+    try {
+      const config: AxiosRequestConfig = {
+        headers: { Authorization: `Bearer ${token}` },
+      };
+      const response = await API.get(`/animals/${id}`, config);
+      return response.data;
+    } catch (error) {
+      console.error("Erro na requisição", error);
+      throw error;
+    }
+  };
+  
