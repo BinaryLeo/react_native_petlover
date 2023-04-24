@@ -2,7 +2,9 @@
 
 ## PetLovers
 
- <p>A react native application using authentication through an API rest. </p>
+ <p>Welcome to my animal adoption mobile application project! This is a small React Native application that allows users to authenticate using a RESTful API, list available animals for adoption, and view details of individual animals. The application was developed as part of a coding challenge and is publicly available on Github. Feel free to download and use the code as a reference for your own projects. 
+</p>
+<p>Thank you for your interest in my project!</p>
  
 
 
