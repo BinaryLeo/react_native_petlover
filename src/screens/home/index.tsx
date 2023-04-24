@@ -183,7 +183,7 @@ export function Home() {
               <BrowsePictures onPress={() => Alert.alert("imagem anterior")}>
                 <Text style={{color:"#fff"}}>{"<"}</Text>
               </BrowsePictures>
-              <BrowsePictures onPress={() => Alert.alert("imagem anterior")}>
+              <BrowsePictures onPress={() => Alert.alert("próxima imagem")}>
               <Text style={{color:"#fff"}}>{">"}</Text>
               </BrowsePictures>
             </View>
