@@ -84,6 +84,14 @@ yarn add react-native-svg-transformer
 yarn add axios
 ```
 
+
+#### Testing:
+
+```bash
+npx expo install jest-expo jest
+```
+
+
 #### Endpoints
 
 ##### SignIn
