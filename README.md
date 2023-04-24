@@ -14,8 +14,27 @@
 <div align="center" style="margin: 20px; text-align: center">
 
 ![rsz_whatsapp_image_2023-04-24_at_0010181](https://user-images.githubusercontent.com/72607039/233893123-a8a80eec-5520-4002-95ee-d2384951480e.jpg)
-
+ 
+[![Skills](https://skillicons.dev/icons?i=react,ts,vscode,styledcomponents,redux,figma,&perline=6)](/BinaryLeo/react_native_petlover)
 </div>
+
+<table>
+  <tr>
+    <td>signIn</td>
+    <td>Filter</td>
+    <td>Pet List</td>
+    <td>Details</td>
+  </tr>
+  <tr>
+   <td><img src="https://user-images.githubusercontent.com/72607039/233894829-39fca866-36ce-4a53-897b-397201069bc9.jpeg"></td>
+    <td><img src="https://user-images.githubusercontent.com/72607039/233894256-0cf2e5cb-4bad-43a8-b04c-e98a346f2d30.jpeg"></td>
+    <td><img src="https://user-images.githubusercontent.com/72607039/233894290-76ec1c88-4d8f-4c43-86de-aadc77d3040b.jpeg"></td>
+     <td><img src="https://user-images.githubusercontent.com/72607039/233894197-5c8026b9-47ea-4adb-a351-5162d5c1c9ee.jpeg"></td>
+    
+  </tr>
+</table>
+
+
 
 #### Dependencies
 
@@ -57,3 +76,75 @@ yarn add react-native-svg-transformer
 ```bash
 yarn add axios
 ```
+
+#### Endpoints
+
+##### SignIn
+
+```json
+url: {baseURL}/auth/signin
+tipo: POST
+corpo: {
+  "username": "username ...",
+  "password": "password"
+}
+resposta:
+{
+    "token": "...",
+    "type": "Bearer"
+}
+```
+
+##### Categories and animals
+
+```json
+url: {baseURL}/categories
+tipo: GET
+cabeçalhos:
+  - Authorization
+resposta:
+[
+    {
+        "name": "Weimaraner",
+        "id": "1"
+    },
+    ...
+]
+url: {baseURL}/animals
+tipo: GET
+cabeçalhos:
+  - Authorization
+resposta:
+[
+    {
+        "id": "1",
+        "categoryId": "1",
+        "name": "Oriental",
+        "age": 7,
+        "img": "http://loremflickr.com/640/480/animals?lock=1"
+    },
+    ...
+]
+
+```
+
+#### Details
+```json
+
+url: {baseURL}/animals/{id}
+tipo: GET
+cabeçalhos:
+  - Authorization
+resposta:
+{
+    "id": "1",
+    "categoryId": "1",
+    "name": "Oriental",
+    "age": 7,
+    "img": "http://loremflickr.com/640/480/animals?lock=1",
+    "description": "...",
+    "phone": "+55 77 7609-0427",
+    "email": "kenja@att.net"
+
+} 
+``
